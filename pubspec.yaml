@@ -20,15 +20,10 @@ dev_dependencies:
 flutter:
 
   uses-material-design: true
-
   assets:
     - assets/images/
 
   fonts:
-    - family: Abdalluh
+    - family: Lobster
       fonts:
-        - asset: assets/fonts/Fordscript.ttf
-
-    - family: Poppins
-      fonts:
-        - asset: assets/fonts/Poppins-Regular.ttf
+        - asset: assets/fonts/Lobster-Regular.ttf
