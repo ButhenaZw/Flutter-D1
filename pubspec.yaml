@@ -8,22 +8,62 @@ environment:
   sdk: ^3.7.2
 
 dependencies:
+  lottie: ^2.7.0
+  shared_preferences: ^2.2.0
   flutter:
     sdk: flutter
+  video_player: ^2.4.5  # Make sure to use the latest version
+  http: ^1.2.0
+
+
   cupertino_icons: ^1.0.8
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
+  flutter_native_splash: ^2.2.16
+  animated_splash_screen: ^1.3.0
   flutter_lints: ^5.0.0
+  flutter_launcher_icons: ^0.14.3
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/icon/app_icon.png"
 
 flutter:
 
   uses-material-design: true
   assets:
+    - assets/images/background.mp4
+    - assets/animations/splash.json
+    - assets/banner.jpg
     - assets/images/
+    - assets/
+    - assets/brands/ford.png
+    - assets/brands/bmw.png
+    - assets/brands/audi.png
+    - assets/images/background.gif
+    - assets/brands/tesla.png
 
   fonts:
     - family: Lobster
       fonts:
         - asset: assets/fonts/Lobster-Regular.ttf
+    - family: ford
+      fonts:
+        - asset: assets\fonts\Fordscript.ttf
+    - family: Vibes
+      fonts:
+        - asset: assets\fonts\GreatVibes-Regular.ttf
+
+    - family: BOOKOSB
+      fonts:
+        - asset: assets\fonts\BOOKOSB.TTF
+
+flutter_native_splash:
+  color: "#ffffff"
+  image: assets/images/logo.png  
+  branding: assets/branding.png 
+  android: true
+  ios: true
